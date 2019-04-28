@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7d73a1d-4fff-431b-8cfd-72fad3b421dd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Model/UserStat.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ProcessRecords/CalcFunctions.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/TCorp/Main.class" afterPath="$PROJECT_DIR$/out/production/TCorp/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/TCorp/ProcessRecords/CalcAvgChargeTime.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/TCorp/ProcessRecords/CalcMaxCredits.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/TCorp/ProcessRecords/CalcTotalChargeTime.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/TCorp/ProcessRecords/CalcTotalCredit.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/TCorp/ProcessRecords/ProcessData.class" afterPath="$PROJECT_DIR$/out/production/TCorp/ProcessRecords/ProcessData.class" />
       <change beforePath="$PROJECT_DIR$/out/production/TCorp/ReadRecords/AddToMultiMap.class" afterPath="$PROJECT_DIR$/out/production/TCorp/ReadRecords/AddToMultiMap.class" />
       <change beforePath="$PROJECT_DIR$/out/production/TCorp/ReadRecords/FileInput.class" afterPath="$PROJECT_DIR$/out/production/TCorp/ReadRecords/FileInput.class" />
@@ -17,18 +11,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/TCorp/ReadRecords/UserMultiMap.class" afterPath="$PROJECT_DIR$/out/production/TCorp/ReadRecords/UserMultiMap.class" />
       <change beforePath="$PROJECT_DIR$/out/production/TCorp/WriteRecords/FileOutput.class" afterPath="$PROJECT_DIR$/out/production/TCorp/WriteRecords/FileOutput.class" />
       <change beforePath="$PROJECT_DIR$/out/production/TCorp/WriteRecords/WriteCSV.class" afterPath="$PROJECT_DIR$/out/production/TCorp/WriteRecords/WriteCSV.class" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/ProcessRecords/CalcAvgChargeTime.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/ProcessRecords/CalcMaxCredits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/ProcessRecords/CalcTotalChargeTime.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/ProcessRecords/CalcTotalCredit.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/ProcessRecords/ProcessData.java" afterPath="$PROJECT_DIR$/src/ProcessRecords/ProcessData.java" />
-      <change beforePath="$PROJECT_DIR$/src/ReadRecords/AddToMultiMap.java" afterPath="$PROJECT_DIR$/src/ReadRecords/AddToMultiMap.java" />
-      <change beforePath="$PROJECT_DIR$/src/ReadRecords/FileInput.java" afterPath="$PROJECT_DIR$/src/ReadRecords/FileInput.java" />
-      <change beforePath="$PROJECT_DIR$/src/ReadRecords/ReadCSV.java" afterPath="$PROJECT_DIR$/src/ReadRecords/ReadCSV.java" />
-      <change beforePath="$PROJECT_DIR$/src/ReadRecords/UserMultiMap.java" afterPath="$PROJECT_DIR$/src/ReadRecords/UserMultiMap.java" />
-      <change beforePath="$PROJECT_DIR$/src/WriteRecords/FileOutput.java" afterPath="$PROJECT_DIR$/src/WriteRecords/FileOutput.java" />
-      <change beforePath="$PROJECT_DIR$/src/WriteRecords/WriteCSV.java" afterPath="$PROJECT_DIR$/src/WriteRecords/WriteCSV.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -254,12 +236,20 @@
       <option name="presentableId" value="Default" />
       <updated>1556378305282</updated>
       <workItem from="1556378313657" duration="21624000" />
-      <workItem from="1556464539094" duration="1375000" />
+      <workItem from="1556464539094" duration="1471000" />
     </task>
+    <task id="LOCAL-00001" summary="Modified">
+      <created>1556465999507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556465999507</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22999000" />
+    <option name="totallyTimeSpent" value="23095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2326" height="1258" extended-state="6" />
@@ -298,6 +288,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
