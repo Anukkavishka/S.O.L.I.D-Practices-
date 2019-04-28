@@ -1,5 +1,6 @@
 package ReadRecords;
 
+import Model.UserStat;
 import ProcessRecords.ProcessData;
 
 import java.io.BufferedReader;
@@ -22,11 +23,11 @@ public class ReadCSV implements FileInput {
     }
 
     @Override
-    public Map<String, List<String>> Read() {
+    public Map<String, UserStat> Read() {
         try {
 
             String strLine="";
-            Map<String, List<String>> map = userMultiMap.getMultiMap();
+            Map<String, UserStat> map = userMultiMap.getMultiMap();
             ArrayList arrayList = new ArrayList();
 
             while ((strLine = inBuffer.readLine()) != null) {
@@ -37,7 +38,7 @@ public class ReadCSV implements FileInput {
             Iterator iterator = arrayList.iterator();
 
             while (iterator.hasNext()) {
-                List<String> dataList = new ArrayList<String>();
+                UserStat userStat=new UserStat();
                 List<Long> creditsList = new ArrayList<Long>();
                 List<Long> chargeTimeList = new ArrayList<Long>();
                 Iterator iteratorInner = arrayList.iterator();
@@ -57,13 +58,14 @@ public class ReadCSV implements FileInput {
 
                 //Calculating Data for specific user
 
-                dataList.add(processData.creditsTotal(creditsList) + "");
-                dataList.add(processData.ChargeTimeTotal(chargeTimeList));
-                dataList.add(processData.chargeTimeAvg(chargeTimeList) + "");
-                dataList.add(processData.creditsMax(creditsList) + "");
+
+                userStat.setCreditTotal(processData.creditsTotal(creditsList) + "");
+                userStat.setChargeTimeTotal(processData.ChargeTimeTotal(chargeTimeList));
+                userStat.setChargeTimeAvg(processData.chargeTimeAvg(chargeTimeList) + "");
+                userStat.setMaxCredit(processData.creditsMax(creditsList) + "");
 
                 //putting all calculated data of a specific user into the Map
-                map.put(user, dataList);
+                map.put(user, userStat);
             }
 
 

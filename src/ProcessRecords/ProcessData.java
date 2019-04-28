@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-public class ProcessData implements CalcTotalChargeTime, CalcTotalCredit, CalcAvgChargeTime, CalcMaxCredits {
+public class ProcessData implements CalcFunctions {
     @Override
     public String ChargeTimeTotal(List<Long> chargeTimeList) {
         long totalTime = 0;

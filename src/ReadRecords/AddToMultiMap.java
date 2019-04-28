@@ -1,9 +1,10 @@
 package ReadRecords;
 
-import java.util.List;
+import Model.UserStat;
+
 import java.util.Map;
 
 public interface AddToMultiMap {
 
-    Map<String, List<String>> getMultiMap();
+    Map<String, UserStat> getMultiMap();
 }

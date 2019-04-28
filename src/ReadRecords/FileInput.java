@@ -1,9 +1,10 @@
 package ReadRecords;
 
-import java.util.List;
+import Model.UserStat;
+
 import java.util.Map;
 
 public interface FileInput {
 
-    Map<String, List<String>> Read();
+    Map<String, UserStat> Read();
 }

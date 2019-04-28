@@ -1,15 +1,16 @@
 package ReadRecords;
 
+import Model.UserStat;
+
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class UserMultiMap implements AddToMultiMap {
     @Override
-    public Map<String, List<String>> getMultiMap() {
+    public Map<String, UserStat> getMultiMap() {
 
         // create multimap to store key and values
-        Map<String, List<String>> map = new HashMap<String, List<String>>();
+        Map<String, UserStat> map = new HashMap<String, UserStat>();
 
         return map;
 
